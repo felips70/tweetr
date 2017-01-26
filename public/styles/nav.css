@@ -1,0 +1,47 @@
+#nav-bar button i {
+  margin-right: 0.5em;
+}
+
+#nav-bar button {
+  border-radius: 7px;
+  height: 3.5em;
+  width: 7em;
+  background-color: #def9f9;
+  border: 2px solid;
+  border-color: black;
+  margin-top: 0.7em;
+  margin-left: 60em;
+  color: #00a087;
+}
+
+#nav-bar button:hover {
+ background-color: white;
+ color: black;
+}
+
+nav {
+  color: #e8fdff;
+  background-color: #00a087;
+  height: 80px;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+
+}
+
+#nav-bar .logo {
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+#nav-bar .header {
+  display: flex;
+  float: left;
+  margin-left: 10px;
+  font-size: 200%;
+  align-items: center;
+}
